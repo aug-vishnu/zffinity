@@ -1,6 +1,4 @@
-# Affinity Rust
-
-# Demo
+# Affinity Rust | React App | Demo
 
 [Live demo here](zffinity.vercel.app/)
 
