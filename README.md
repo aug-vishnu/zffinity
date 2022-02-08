@@ -1,4 +1,4 @@
-**Table of contents** 
+# Affinity Rust
 
 # Demo
 
@@ -29,10 +29,6 @@ Built-in feature from React.js:
 - Features
 - CTA banner
 - Footer
-
-# Screenshot
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb758687-f03f-4413-ab63-cdc15e210396/Untitled.png)
 
 # **Philosophy**
 
