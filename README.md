@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+**Table of contents** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Demo
 
-## Available Scripts
+[Live demo here](zffinity.vercel.app/)
 
-In the project directory, you can run:
+# About
 
-### `npm start`
+Competitive rust servers built by the community, Affinity rust server players can directly purchase VIP passes, boxes, etc. Choose the type of server you want, and then choose subtype, that is 'Main' or 'Mondays'. You will have the available passes and boxes on the page itself. You can then buy go through the checkout process to buy them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# **Features**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+React is a JavaScript library for building user interfaces.
 
-### `npm test`
+- **Declarative:** React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
+- **Component-Based:** Build encapsulated components that manage their state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep the state out of the DOM.
+- **Learn Once, Write Anywhere:** We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using [React Native](https://reactnative.dev/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Built-in feature from React.js:
 
-### `npm run build`
+- ☕ Minify HTML & CSS
+- 💨 Live reload
+- ✅ Cache busting
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# **Included Components**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Navbar
+- Hero
+- Features
+- CTA banner
+- Footer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Screenshot
 
-### `npm run eject`
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bb758687-f03f-4413-ab63-cdc15e210396/Untitled.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# **Philosophy**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Minimal code
+- SEO-friendly
+- 🚀 Production-ready
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# **Requirements**
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js and npm
 
-## Learn More
+# **Getting started**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run the following command on your local environment:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/aug-vishnu/zffinity zffinity
+cd zffinity
+npm install
+```
 
-### Code Splitting
+Then, you can run locally in development mode with live reload:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+Open [http://localhost:3000](http://localhost:3000/) with your favorite browser to see your project. For your information, Next JS need to take some time to compile the project for your first time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# **Deploy to production**
 
-### Making a Progressive Web App
+You can see the results locally in production mode with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run build
+npm run start
+```
 
-### Advanced Configuration
+You can create an optimized production build with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run build-prod
+```
 
-### Deployment
+Now, your theme is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# **License**
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licensed under the [MIT](https://opensource.org/licenses/MIT) License, Copyright © 2022
